@@ -1,0 +1,6 @@
+{
+  "name": "TyreBook — Tyre Credit & Cash Ledger",
+  "description": "Offline-first PWA for Nigerian tyre retail inventory, cash sales, and daily installment credit collection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
