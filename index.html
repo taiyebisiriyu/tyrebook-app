@@ -23,15 +23,17 @@
       rel="stylesheet"
     />
  
- <style>
-  nav, [class*="bottom-0"] {
-    bottom: 68px !important;
+<style>
+  #root nav,
+  #root [class*="fixed"][class*="bottom"],
+  #root [class*="sticky"][class*="bottom"] {
+    bottom: 76px !important;
   }
   body {
-    padding-bottom: 140px !important;
+    padding-bottom: 150px !important;
   }
-   </head>
 </style>
+</head>
   <body class="bg-[#F6F7F8] text-slate-900 antialiased selection:bg-emerald-200 selection:text-slate-900">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
